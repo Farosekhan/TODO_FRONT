@@ -10,7 +10,6 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "vite preview",
-    "predeploy": "npm run build",
     "postinstall": "chmod +x node_modules/.bin/vite"
   },
   "dependencies": {
