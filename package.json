@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "start": "vite preview",
     "predeploy": "npm run build",
-    "deploy;": "gh-pages -d dist"
+    "postinstall": "chmod +x node_modules/.bin/vite"
   },
   "dependencies": {
     "bootstrap": "^5.3.7",
